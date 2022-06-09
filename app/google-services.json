@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "583879905604",
+    "project_id": "android-palpale",
+    "storage_bucket": "android-palpale.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583879905604:android:dfb0810e4fa413555b4711",
+        "android_client_info": {
+          "package_name": "com.coding.smk2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583879905604-qmlrut783tfg8e431i5diqk1vcs69kfn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCivVKFx0kKqFu6w7JNXv2M33zoY9mIQs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583879905604-qmlrut783tfg8e431i5diqk1vcs69kfn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,66 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center_vertical"
-        android:background="@color/white">
+        android:layout_height="match_parent">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
 
 
         <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Tambah Data Baru :"
-            android:fontFamily="@font/deffont"
-            android:textColor="@color/black"
-            android:layout_marginStart="10dp"
-            android:textSize="15sp"/>
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tambah Data Baru :"
+                android:fontFamily="@font/deffont"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:textSize="15sp"/>
 
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/text_id"
-                android:layout_width="0dp"
-                android:layout_weight="0.2"
-                android:textColorHint="@color/black"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="2dp"
-                android:fontFamily="@font/deffont"
-                android:hint="ID"
-                android:inputType="number" />
+                    android:id="@+id/text_id"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="2dp"
+                    android:fontFamily="@font/deffont"
+                    android:hint="ID"
+                    android:inputType="number" />
 
-            <EditText
-                android:id="@+id/etext_nama"
-                android:layout_width="0dp"
-                android:layout_weight="0.8"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="2dp"
-                android:layout_marginEnd="10dp"
-                android:textColorHint="@color/black"
-                android:fontFamily="@font/deffont"
-                android:hint="Nama"
-                android:inputType="text" />
+            <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical">
+
+                <EditText
+                        android:id="@+id/etext_nama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/deffont"
+                        android:hint="Nama"
+                        android:inputType="text" />
+
+                <EditText
+                        android:id="@+id/etext_alamat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/deffont"
+                        android:hint="Alamat"
+                        android:inputType="text" />
+
+                <EditText
+                        android:id="@+id/etext_nohp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/deffont"
+                        android:hint="Nomor HP"
+                        android:inputType="phone" />
+
+            </LinearLayout>
 
 
         </LinearLayout>
 
         <Button
-            android:id="@+id/btn_save"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:fontFamily="@font/deffont"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Simpan"/>
+                android:id="@+id/btn_save"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/deffont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpan"/>
     </LinearLayout>
 </FrameLayout>
