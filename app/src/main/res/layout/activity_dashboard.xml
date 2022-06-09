@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@color/white">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_insert_siswa"
+        android:name="com.coding.smk2.InsertSiswaFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+
+        />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_list_siswa"
+        android:name="com.coding.smk2.ListSiswaFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.85" />
+
+</LinearLayout>

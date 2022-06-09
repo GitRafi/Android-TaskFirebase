@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/id"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/deffont"
+            android:layout_weight="0.25"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="ID"/>
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="0dp"
+            android:textSize="18sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:fontFamily="@font/deffont"
+            android:textColor="@color/black"
+            android:text="Nama" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_siswa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </ListView>
+</LinearLayout>
